@@ -1,0 +1,45 @@
+.App .navbar-brand>img {
+  display: inline;
+  height: 50px;
+  width: 41px;
+}
+.quick-link-head{
+  text-align: center;
+  height: 90px;
+}
+.quick-link-tile{
+  text-align: center;
+  height: 90px;
+}
+.card-main{
+  border-radius: 9px;
+  padding-bottom:5%;
+}
+.card-sub{
+  text-align: center;
+  padding: 15% 0;
+  border: 1px solid;
+  border-color: #ccc;
+  border-radius: 6px;
+}
+.card-sub:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.App .navbar-header a:first-child{
+  padding: 2px 20px 0 69px;
+}
+.App .navbar-header a:first-child span{
+  padding-left: 11px;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
